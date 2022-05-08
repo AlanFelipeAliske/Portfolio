@@ -1,0 +1,12 @@
+.card:hover{
+    background-color: #191e25 !important;
+    transition: 0.3s;
+}
+
+.body-class{
+    padding-top: 90px;
+}
+
+.card{
+    border-radius: 8px;
+}
