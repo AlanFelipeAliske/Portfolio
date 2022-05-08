@@ -10,3 +10,20 @@
 .card{
     border-radius: 8px;
 }
+
+.card{
+    border-color: #8257e5;
+}
+.text{
+    color: #8257e5;
+}
+
+.zoom:hover{
+    width: 320px;
+    transition: 0.3s;
+
+}
+
+.height{
+    height: 400px;
+}
