@@ -1,4 +1,17 @@
+.text{
+    color: var(--purple);
+    border-color: var(--purple);
+}
 
+.text:hover{
+    color: var(--white);
+    background-color: var(--purple)
+}
+
+.nav:hover{
+    color: var(--purple)
+    
+}
 
 
 

@@ -18,11 +18,18 @@
     color: #8257e5;
 }
 
-.zoom:hover{
-    width: 320px;
-    transition: 0.3s;
-
+.zoom{
+    animation: go-back 1.5s infinite alternate;
 }
+@keyframes go-back {
+    from {
+      transform: translateY(20px);
+    }
+    to {
+      transform: translateY(-20px);
+    }
+  }
+
 
 .height{
     height: 400px;

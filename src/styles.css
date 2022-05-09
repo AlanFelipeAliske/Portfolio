@@ -1,11 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
 
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
 *{
-    font-family: "consolas";
+    font-family: "Consolas", "Open Sans";
 }
+
+:root {
+    --red: red;
+    --purple: #8257e5;
+    --white: white;
+
+  }
 
 body{
     background-color: #191e25 !important;
 }
 
-@import '~bootstrap/dist/css/bootstrap.min.css';
