@@ -18,5 +18,4 @@ export class NavBarComponent implements OnInit {
         link.href = './assets/images/AlanFelipeCV.pdf';
         link.click();
     }
-    
 }

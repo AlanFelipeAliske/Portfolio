@@ -1,7 +1,7 @@
-.card:hover{
+/* .card:hover{
     background-color: #191e25 !important;
     transition: 0.3s;
-}
+} */
 
 .body-class{
     padding-top: 90px;
@@ -12,10 +12,11 @@
 }
 
 .card{
-    border-color: #8257e5;
+    border-color: var(--purple);
 }
 .text{
-    color: #8257e5;
+    color: var(--purple);
+
 }
 
 .zoom{
@@ -33,4 +34,15 @@
 
 .height{
     height: 400px;
+}
+
+.fa{
+    color: var(--white);
+}
+
+.fa:hover{
+    position: relative;
+    transform:  scale(1.2);
+    transition: all 0.3s;
+
 }

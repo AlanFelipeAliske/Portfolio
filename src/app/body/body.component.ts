@@ -1,5 +1,7 @@
 
 import { Component } from "@angular/core";
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+
 
 @Component({
     selector: 'app-body',
@@ -10,5 +12,6 @@ import { Component } from "@angular/core";
 
 export class BodyComponent {
     imageCode = './assets/images/webcode.svg';
+    faEnvelope = faEnvelope;
 }
 
