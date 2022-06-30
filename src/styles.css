@@ -4,19 +4,32 @@
 @import '~font-awesome/css/font-awesome.css';
 
 *{
-    font-family: "Consolas", "Open Sans";
+    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    transition: 0.3s;
 }
 
-:root {
-    --red: red;
+.theme-light {
     --purple: #6610f2;
-    --white: white;
+    --white: #F8F9FA;
     --silver: silver;
-    --body: #191E25;
-    --nav: #212529;
-  }
+    --body: #F8F9FA;
+    --nav: #F8F9FA;
+    --hover-white: grey;
+    --text: #1B2431;
+}
 
-body{
-    background-color: #191e25 !important;
+.theme-dark {
+    --purple: #6610f2;
+    --white: #202d3a;
+    --silver: rgb(56, 45, 45);
+    --body: #1B2431;
+    --nav: #1B2431;
+    --hover-white: grey;
+    --text: #F8F9FA;
+    --lightgrey: lightgrey;
+}
+
+#body{
+    background-color: var(--body);
 }
 

@@ -1,5 +1,6 @@
 
 import { Component, OnInit } from "@angular/core";
+import { BodyComponent } from "../body/body.component";
 
 @Component({
     selector: 'app-nav-bar',
@@ -8,6 +9,9 @@ import { Component, OnInit } from "@angular/core";
 })
 
 export class NavBarComponent implements OnInit {
+
+    name = '<Alan-Felipe/>'
+
     constructor(){}
     ngOnInit(): void {
 
@@ -19,6 +23,7 @@ export class NavBarComponent implements OnInit {
         link.click();
     }
     ChangeColor(){
-        window.alert('Em desenvolvimento...')
+        document.body.classList.toggle("theme-light");
+        document.body.classList.toggle("theme-dark");
     }
 }

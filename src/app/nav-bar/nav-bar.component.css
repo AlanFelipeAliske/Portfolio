@@ -1,17 +1,30 @@
 
 .text {
-    color: var(--purple);
-    border-color: var(--purple);
+    color: var(--text);
+    border-color: var(--text);
     margin-left: 10px;
 }
 
-.text:hover {
-    color: var(--white);
-    background-color: var(--purple)
+.nav{
+    background: var(--body);
 }
 
-.nav:hover {
-    color: var(--purple)
+.text:hover {
+    color: var(--hover-white);
+    border-color: var(--hover-white);
+    background-color: var(--nav);
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    color: var(--text);
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+    color: var(--hover-white);
+}
+
+#button-1[_ngcontent-nhv-c17] .knobs[_ngcontent-nhv-c17]:before:hover{
+    color: var(--hover-white);
 }
 
 #button-1 .knobs:before {
@@ -21,13 +34,13 @@
     left: 4px;
     width: 20px;
     height: 10px;
-    color: #fff;
+    color: var(--white);
     font-size: 10px;
     font-weight: bold;
     text-align: center;
     line-height: 1;
     padding: 9px 4px;
-    background-color: var(--purple);
+    background-color: var(--text);
     border-radius: 50%;
     transition: 0.3s cubic-bezier(0.18, 0.89, 0.35, 1.15) all;
     box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.35), 0 10px 10px -5px rgba(0, 0, 0, 0.20);
@@ -36,7 +49,7 @@
 #button-1 .checkbox:checked+.knobs:before {
     content: '';
     left: 26px;
-    background-color: var(--purple);
+    background-color: var(--white);
 }
 
 #button-1 .checkbox:checked~.layer {
@@ -59,7 +72,7 @@
 }
 
 .button {
-    border: solid 2px var(--purple);
+    border: solid 2px var(--text);
     position: relative;
     top: 50%;
     width: 53px;
@@ -68,6 +81,11 @@
     overflow: hidden;
     margin: 0;
 }
+
+.button:hover{
+    border: solid 2px var(--hover-white);
+}
+
 
 .button.r,
 .button.r .layer {
