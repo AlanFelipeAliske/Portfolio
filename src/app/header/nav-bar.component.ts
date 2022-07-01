@@ -23,6 +23,7 @@ export class NavBarComponent implements OnInit {
         link.click();
     }
     ChangeColor(){
+        //alert('Em desenvolvimento!!')
         document.body.classList.toggle("theme-light");
         document.body.classList.toggle("theme-dark");
     }

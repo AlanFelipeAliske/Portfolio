@@ -1,4 +1,8 @@
 
+.text-color {
+    color: var(--text);
+}
+
 .text {
     color: var(--text);
     border-color: var(--text);
@@ -49,7 +53,7 @@
 #button-1 .checkbox:checked+.knobs:before {
     content: '';
     left: 26px;
-    background-color: var(--white);
+    background-color: var(--text);
 }
 
 #button-1 .checkbox:checked~.layer {

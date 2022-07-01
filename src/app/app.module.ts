@@ -6,17 +6,24 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BodyComponent } from './body/body.component';
 import { FooterComponent } from './footer/footer.component';
-import { NavBarComponent } from './nav-bar/nav-bar.component';
+import { TimelineComponent } from './timeline/timeline.component';
+
+import { NavBarComponent } from './header/nav-bar.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { SkillsComponent } from './skills/skills.component';
+import { ContatoComponent } from './contato/contato.component';
 
 @NgModule({
-  declarations: [
+  declarations: [	
     AppComponent,
     NavBarComponent,
     FooterComponent,
     Erro404Component,
-    BodyComponent
-  ],
+    BodyComponent,
+    TimelineComponent,
+    SkillsComponent,
+      ContatoComponent
+   ],
   imports: [
     BrowserModule,
     AppRoutingModule,

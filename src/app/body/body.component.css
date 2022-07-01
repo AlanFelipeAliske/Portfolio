@@ -2,6 +2,9 @@
     background-color: #191e25 !important;
     transition: 0.3s;
 } */
+.text-color {
+    color: var(--text);
+}
 
 .body-class{
     padding-top: 90px;
