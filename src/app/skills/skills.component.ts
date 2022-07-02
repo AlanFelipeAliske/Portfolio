@@ -17,7 +17,7 @@ export class SkillsComponent implements OnInit {
                 id: 1,
                 title: 'teste titulo',
                 link: 'google.com.br',
-                imgUrl: 'urlimg',
+                imgUrl: 'assets/images/perfil.jpg',
             },
             {
                 id: 2,

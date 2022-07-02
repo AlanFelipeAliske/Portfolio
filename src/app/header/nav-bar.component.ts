@@ -27,4 +27,7 @@ export class NavBarComponent implements OnInit {
         document.body.classList.toggle("theme-light");
         document.body.classList.toggle("theme-dark");
     }
+    Aviso(){
+        alert('Em breve');
+    }
 }
