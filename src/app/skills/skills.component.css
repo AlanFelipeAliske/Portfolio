@@ -1,3 +1,7 @@
 .skills{
     justify-content: space-between;
 }
+
+.alt {
+    min-height: 70px;
+}

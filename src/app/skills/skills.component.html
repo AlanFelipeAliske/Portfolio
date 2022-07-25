@@ -1,4 +1,4 @@
-<div id="skills" class="container mt-4 mb-4 d-flex">
+<!-- <div id="skills" class="container mt-4 mb-4 d-flex">
   <div class="row skills">
     <h1 class="fw-light mt-4 mb-4 p-0 text-color">Skills</h1>
     <div *ngFor="let skill of skills" class="card mt-3 mb-3 p-0" style="width: 34rem;">
@@ -7,6 +7,22 @@
         <h5 class="card-title">{{ skill.title }}</h5>
         <p class="card-text">{{ skill.description }}</p>
         <a [href]="skill.link" target="_blank" class="btn btn-primary">Ver site</a>
+      </div>
+    </div>
+  </div>
+</div>
+ -->
+<div id="skills" class="container mt-4 mb-4 d-flex">
+  <div class="row skills">
+    <h1 class="fw-light mt-4 mb-4 p-0 text-color">Skills</h1>
+    <div *ngFor="let skill of skills" class="col-sm-6">
+      <div class="card mt-3 mb-3 p-0">
+        <img class="card-img-top p-3" [src]="skill.imgUrl" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">{{ skill.title }}</h5>
+          <p class="card-text alt">{{ skill.description }}</p>
+          <a [href]="skill.link" target="_blank" class="btn btn-primary">Ver site</a>
+        </div>
       </div>
     </div>
   </div>

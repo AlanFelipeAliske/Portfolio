@@ -13,9 +13,10 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { ContatoComponent } from './contato/contato.component';
 import { DownloadcvComponent } from './shared/component/downloadcv/downloadcv.component';
 import { SkillsComponent } from './skills/skills.component';
+import { CoursesComponent } from './courses/courses.component';
 
 @NgModule({
-  declarations: [		
+  declarations: [
     AppComponent,
     NavBarComponent,
     FooterComponent,
@@ -24,7 +25,8 @@ import { SkillsComponent } from './skills/skills.component';
     TimelineComponent,
     SkillsComponent,
     ContatoComponent,
-    DownloadcvComponent
+    DownloadcvComponent,
+    CoursesComponent
   ],
   imports: [
     BrowserModule,
