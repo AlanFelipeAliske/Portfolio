@@ -10,11 +10,12 @@ import { TimelineComponent } from './timeline/timeline.component';
 
 import { NavBarComponent } from './header/nav-bar.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { SkillsComponent } from './skills/skills.component';
 import { ContatoComponent } from './contato/contato.component';
+import { DownloadcvComponent } from './shared/component/downloadcv/downloadcv.component';
+import { SkillsComponent } from './skills/skills.component';
 
 @NgModule({
-  declarations: [	
+  declarations: [		
     AppComponent,
     NavBarComponent,
     FooterComponent,
@@ -22,8 +23,9 @@ import { ContatoComponent } from './contato/contato.component';
     BodyComponent,
     TimelineComponent,
     SkillsComponent,
-      ContatoComponent
-   ],
+    ContatoComponent,
+    DownloadcvComponent
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,

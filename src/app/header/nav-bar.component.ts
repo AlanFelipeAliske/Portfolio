@@ -16,12 +16,7 @@ export class NavBarComponent implements OnInit {
     ngOnInit(): void {
 
     }
-    DownloadCV(){
-        var link = document.createElement('a');
-        link.download = 'AlanFelipeCV';
-        link.href = './assets/images/AlanFelipeCV.pdf';
-        link.click();
-    }
+
     ChangeColor(){
         //alert('Em desenvolvimento!!')
         document.body.classList.toggle("theme-light");

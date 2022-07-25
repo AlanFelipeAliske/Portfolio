@@ -16,6 +16,7 @@
     --nav: #F8F9FA;
     --hover-white: grey;
     --text: #1B2431;
+    --border: #1B2431; 
 }
 
 .theme-dark {
@@ -26,10 +27,15 @@
     --nav: #1B2431;
     --hover-white: grey;
     --text: #F8F9FA;
+    --border: #1B2431; 
     --lightgrey: lightgrey;
 }
 
 #body{
     background-color: var(--body);
+}
+
+.text-color {
+    color: var(--text);
 }
 

@@ -1,0 +1,11 @@
+.text {
+    color: var(--text);
+    border-color: var(--text);
+    margin-left: 10px;
+}
+
+.text:hover {
+    color: var(--hover-white);
+    border-color: var(--hover-white);
+    background-color: var(--nav);
+}
