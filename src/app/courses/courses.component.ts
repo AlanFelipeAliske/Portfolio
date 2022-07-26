@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CoursesComponent {
 
+  img: string = 'assets/img-certificados/Angular 8-1.jpg';
+
   constructor() { }
 
   ngOnInit() {

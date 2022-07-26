@@ -10,7 +10,7 @@ import { BodyComponent } from "../body/body.component";
 
 export class NavBarComponent implements OnInit {
 
-    name = '<Alan-Felipe/>'
+    name: string = '<Alan-Felipe/>'
 
     constructor(){}
     ngOnInit(): void {

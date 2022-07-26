@@ -5,3 +5,7 @@
 .alt {
     min-height: 70px;
 }
+
+.card-width{
+    width: 49% !important;
+}
