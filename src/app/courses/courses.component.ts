@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
+import { Courses } from './courses';
+import { CoursesService } from './courses.service';
 
 @Component({
   selector: 'app-courses',
@@ -7,11 +9,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CoursesComponent {
 
+  title: string = "Principais Certificados"
   img: string = 'assets/img-certificados/Angular 8-1.jpg';
 
-  constructor() { }
+  courses: Courses[] = [];
+
+  constructor(private coursesService: CoursesService) { }
 
   ngOnInit() {
+    this.courses = this.coursesService.retrieveAll();
   }
 
 }
