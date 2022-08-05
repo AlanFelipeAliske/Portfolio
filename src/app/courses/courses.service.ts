@@ -16,7 +16,7 @@ var COURSES: Courses[] = [
     {
         id: 1,
         title: 'Introdução ao Angular 8',
-        description: '',
+        description: 'teste',
         date: '20/07/2022',
         imgUrl: 'assets/img-certificados/Angular 8-1.jpg',
     },
@@ -64,23 +64,23 @@ var COURSES: Courses[] = [
     },
     {
         id: 8,
-        title: '',
+        title: 'Python e Django',
         description: '',
-        date: '',
-        imgUrl: '',
+        date: '08/04/2022',
+        imgUrl: 'assets/img-certificados/Python e Django-1.jpg',
     },
     {
         id: 9,
-        title: '',
+        title: 'Orientação a Objetos em .Net',
         description: '',
-        date: '',
-        imgUrl: '',
+        date: '28/01/2021',
+        imgUrl: 'assets/img-certificados/Orientação a Objetos em .Net-1.jpg',
     },
     {
         id: 10,
-        title: '',
+        title: 'Desenvolvimento avançado com JavaScript',
         description: '',
-        date: '',
-        imgUrl: '',
+        date: '26/01/2021',
+        imgUrl: 'assets/img-certificados/Desenvolvimento Avançado com JavaScript e ES-1.jpg',
     }
 ]

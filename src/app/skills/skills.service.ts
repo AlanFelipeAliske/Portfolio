@@ -26,5 +26,19 @@ var SKILLS: Skills[] = [
         description: 'Um dos sites em que mais gostei de participar do desenvolvimento com objetivo de ajudar crianças carentes',
         link: 'https://finiciativa.org.br/',
         imgUrl: 'assets/images/fininciativa.png',
+    },
+    {
+        id: 3,
+        title: 'Faculdade Pequeno Principe',
+        description: 'Site desenvolvido na Agência Inunda Web',
+        link: 'https://faculdadespequenoprincipe.edu.br/',
+        imgUrl: 'assets/images/faculdadepequenoprincipe.png',
+    },
+    {
+        id: 4,
+        title: 'Fundação Iniciativa',
+        description: 'Um dos sites em que mais gostei de participar do desenvolvimento com objetivo de ajudar crianças carentes',
+        link: 'https://finiciativa.org.br/',
+        imgUrl: 'assets/images/fininciativa.png',
     }
 ]

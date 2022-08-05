@@ -16,7 +16,7 @@ import { SkillsComponent } from './skills/skills.component';
 import { CoursesComponent } from './courses/courses.component';
 
 @NgModule({
-  declarations: [
+  declarations: [	
     AppComponent,
     NavBarComponent,
     FooterComponent,
@@ -27,7 +27,7 @@ import { CoursesComponent } from './courses/courses.component';
     ContatoComponent,
     DownloadcvComponent,
     CoursesComponent
-  ],
+   ],
   imports: [
     BrowserModule,
     AppRoutingModule,

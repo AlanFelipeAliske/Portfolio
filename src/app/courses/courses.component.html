@@ -1,6 +1,5 @@
-<h2 class="fw-light mt-4 mb-4 p-0 text-color">{{ title }}</h2>
-
-
+<h2 class="fw-light mt-6 mb-4 p-0 text-color">{{ title }}</h2>
+<hr class="text-color">
 <div *ngFor="let course of courses" class="card card-css mb-4">
   <div class="card-body">
     <div class="row">
@@ -10,7 +9,7 @@
       <div div class="col-md-7">
         <h6 class="text-color">{{ course.title }}</h6>
         <p class="text-color">{{ course.description }}</p>
-        <p class="text-color">{{ course.date }}</p>
+        <p class="text-color">Conclusão: {{ course.date }}</p>
       </div>
       <div class="col-md-3 d-flex align-items-center">
         <button class="btn btn-primary btn-width">Ver Certificado</button>
@@ -18,4 +17,3 @@
     </div>
   </div>
 </div>
-

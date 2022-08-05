@@ -11,6 +11,7 @@ import { SkillsService } from './skills.service';
 
 export class SkillsComponent implements OnInit {
     
+    title: string = 'Projetos'
     skills: Skills[] = [];
 
     constructor(private skillsService: SkillsService) {}
